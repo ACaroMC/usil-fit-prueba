@@ -6,6 +6,8 @@ export type MerchantPlanOption = {
   features: string[]
   highlighted?: boolean
   badge?: string
+  buttonLabel: string
+  payback?: string
 }
 
 export const merchantPlans: MerchantPlanOption[] = [
@@ -13,27 +15,44 @@ export const merchantPlans: MerchantPlanOption[] = [
     id: 'basic',
     name: 'Básico',
     price: 0,
-    description: 'Una forma sencilla de que estudiantes te encuentren.',
-    features: ['Perfil de tu comercio', 'Hasta 3 platos listados', 'Información de ubicación'],
+    description: 'Tu perfil listo para que te encuentren.',
+    features: [
+      'Perfil con nombre, dirección, horario y distancia a la USIL',
+      'Hasta 3 platos con foto, precio y etiqueta saludable',
+      'Aparece en búsquedas en posición estándar',
+      'Sin badge ni prioridad',
+    ],
+    buttonLabel: 'Empezar gratis',
   },
   {
     id: 'featured',
     name: 'Destacado',
-    price: 49,
+    price: 19,
     description: 'Más visibilidad para tus mejores opciones.',
-    features: ['Menú completo', 'Badge Destacado', 'Prioridad en los resultados'],
+    features: [
+      'Todo lo del plan Básico',
+      'Menú completo sin límite de platos',
+      'Badge Destacado y prioridad en resultados',
+      'Etiquetas: alta en proteína, vegetariana y baja en grasa',
+      'Contacto directo por llamada o WhatsApp',
+    ],
     highlighted: true,
     badge: 'Más elegido',
+    buttonLabel: 'Suscribirme',
+    payback: 'Se paga solo con 4 clientes nuevos al mes',
   },
   {
     id: 'premium',
     name: 'Premium',
-    price: 99,
-    description: 'Conecta con estudiantes y conoce el alcance de tu perfil.',
+    price: 39,
+    description: 'La máxima visibilidad y estadísticas para crecer.',
     features: [
-      'Todo lo incluido en Destacado',
-      'Promociones con avisos a estudiantes',
-      'Estadísticas de visitas',
+      'Todo lo del plan Destacado',
+      'Promociones con notificaciones push y por correo',
+      'Estadísticas de visitas y clics al perfil',
+      'Máxima prioridad cuando coincides con una búsqueda',
     ],
+    buttonLabel: 'Suscribirme',
+    payback: 'Se paga solo con 8 clientes nuevos al mes',
   },
 ]

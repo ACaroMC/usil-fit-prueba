@@ -3,6 +3,7 @@ import { Camera, HeartPulse, Leaf, Music2, UsersRound } from 'lucide-react'
 const footerLinks = [
   { label: 'Inicio', href: '#inicio' },
   { label: 'Buscar opciones', href: '#buscar' },
+  { label: 'Ejemplos rápidos', href: '#ejemplos' },
   { label: 'Resultados', href: '#resultados' },
   { label: 'Planes para comercios', href: '#planes' },
 ]
@@ -15,7 +16,7 @@ const socialLinks = [
 
 export function SiteFooter() {
   return (
-    <footer id="contacto" className="border-t border-emerald-900/10 bg-emerald-950 text-lime-50">
+    <footer id="contacto" className="border-t border-emerald-900/10 bg-[#0f3d2e] text-lime-50">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-[1.4fr_0.8fr_0.8fr]">
           <div>

@@ -42,35 +42,35 @@ export function NutriCampusLanding() {
     <>
       <SiteHeader />
       <main>
-        <section id="inicio" className="relative scroll-mt-24 overflow-hidden bg-gradient-to-b from-lime-100 via-emerald-50 to-emerald-200/70">
-          <div aria-hidden="true" className="pointer-events-none absolute -right-28 -top-28 size-80 rounded-full bg-white/50 blur-3xl" />
-          <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-56 size-80 rounded-full bg-lime-300/40 blur-3xl" />
-          <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-12 sm:px-6 sm:pt-16 lg:px-8 lg:pt-20">
+        <section id="inicio" className="relative scroll-mt-24 overflow-hidden bg-gradient-to-br from-[#a3e635] via-[#4ade80] to-[#34d399]">
+          <div aria-hidden="true" className="pointer-events-none absolute -right-28 -top-28 size-80 rounded-full bg-[#ffd60a]/45 blur-3xl" />
+          <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-56 size-80 rounded-full bg-[#ff3d81]/15 blur-3xl" />
+          <div className="relative mx-auto max-w-7xl px-4 pb-14 pt-12 sm:px-6 sm:pt-16 lg:px-8 lg:pt-20">
             <div className="mx-auto max-w-4xl text-center">
-              <span className="inline-flex items-center gap-2 rounded-full border border-emerald-900/10 bg-white/80 px-4 py-2 text-xs font-semibold text-emerald-950 shadow-sm sm:text-sm">
-                <MapPin aria-hidden="true" className="size-4 text-emerald-700" />
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#0f3d2e]/15 bg-[#fffbeb]/90 px-4 py-2 text-xs font-bold text-[#0f3d2e] shadow-sm sm:text-sm">
+                <MapPin aria-hidden="true" className="size-4 text-[#15803d]" />
                 USIL · Av. La Fontana 550, La Molina
               </span>
-              <h1 className="mx-auto mt-6 max-w-4xl text-balance font-heading text-4xl font-bold leading-[1.08] tracking-tight text-emerald-950 sm:text-5xl lg:text-6xl">
-                Come rico. <span className="text-emerald-700">Estudia mejor.</span>
+              <h1 className="mx-auto mt-6 max-w-4xl text-balance font-heading text-4xl font-extrabold leading-[1.08] tracking-tight text-[#0f3d2e] sm:text-5xl lg:text-6xl">
+                Haz match con tu <span className="text-[#9d174d]">almuerzo saludable</span>
               </h1>
-              <p className="mx-auto mt-5 max-w-2xl text-pretty text-base leading-7 text-emerald-950/75 sm:text-lg sm:leading-8">
-                Encuentra comida saludable, rica y a buen precio a pocos minutos de tu campus. Tu tiempo entre clases también cuenta.
+              <p className="mx-auto mt-5 max-w-2xl text-pretty text-base font-medium leading-7 text-[#0f3d2e]/90 sm:text-lg sm:leading-8">
+                NutriCampus te muestra los comercios cerca de la USIL que se ajustan a tu presupuesto y a lo que quieres comer.
               </p>
               <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
-                <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-orange-500 px-6 text-sm font-bold text-orange-950 shadow-md shadow-orange-900/10 transition hover:-translate-y-0.5 hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-500/30">
+                <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#ff6a00] to-[#ff3d81] px-6 text-sm font-extrabold text-[#0f3d2e] shadow-lg shadow-[#9d174d]/20 transition hover:-translate-y-0.5 hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#9d174d]/30">
                   Encuentra tu próximo almuerzo
                   <ArrowRight aria-hidden="true" className="size-4" />
                 </a>
-                <span className="inline-flex items-center gap-2 text-xs font-medium text-emerald-950/80 sm:text-sm">
-                  <ShieldCheck aria-hidden="true" className="size-4 text-emerald-700" />
+                <span className="inline-flex items-center gap-2 rounded-full bg-[#fffbeb]/70 px-4 py-2 text-xs font-bold text-[#0f3d2e] sm:text-sm">
+                  <ShieldCheck aria-hidden="true" className="size-4 text-[#15803d]" />
                   Recomendaciones, no ventas
                 </span>
               </div>
-              <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-medium text-emerald-950/80 sm:text-sm">
-                <span className="inline-flex items-center gap-2"><Sparkles aria-hidden="true" className="size-4 text-emerald-700" />Búsqueda inteligente</span>
-                <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="size-4 text-emerald-700" />Cerca de tu campus</span>
-                <span className="inline-flex items-center gap-2"><HeartPulse aria-hidden="true" className="size-4 text-emerald-700" />Opciones para sentirte bien</span>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-bold text-[#0f3d2e] sm:text-sm">
+                <span className="inline-flex items-center gap-2"><Sparkles aria-hidden="true" className="size-4 text-[#15803d]" />Búsqueda inteligente</span>
+                <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="size-4 text-[#15803d]" />Cerca de tu campus</span>
+                <span className="inline-flex items-center gap-2"><HeartPulse aria-hidden="true" className="size-4 text-[#15803d]" />Opciones para sentirte bien</span>
               </div>
             </div>
 
@@ -78,12 +78,12 @@ export function NutriCampusLanding() {
           </div>
         </section>
 
-        <section id="buscar" className="scroll-mt-24 bg-[#fefce8] px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+        <section id="buscar" className="scroll-mt-24 bg-[#fffbeb] px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-5xl">
             <div className="mb-7 text-center">
-              <span className="text-xs font-bold uppercase tracking-[0.16em] text-emerald-700">Tu antojo, tus criterios</span>
-              <h2 className="mt-2 font-heading text-3xl font-bold tracking-tight text-emerald-950 sm:text-4xl">¿Qué se te antoja hoy?</h2>
-              <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-emerald-950/80 sm:text-base">
+              <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#15803d]">Tu antojo, tus criterios</span>
+              <h2 className="mt-2 font-heading text-3xl font-bold tracking-tight text-[#0f3d2e] sm:text-4xl">¿Qué se te antoja hoy?</h2>
+              <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-[#0f3d2e]/80 sm:text-base">
                 Cuéntanos qué buscas. Comparamos tipo de comida, objetivo y cercanía para recomendarte opciones.
               </p>
             </div>
@@ -91,54 +91,55 @@ export function NutriCampusLanding() {
           </div>
         </section>
 
-        <section id="resultados" className="scroll-mt-24 bg-[#fefce8] px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
+        <section id="resultados" className="scroll-mt-24 bg-[#fffbeb] px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <span className="text-xs font-bold uppercase tracking-[0.16em] text-emerald-700">Opciones para ti</span>
-                <h2 className="mt-2 font-heading text-3xl font-bold tracking-tight text-emerald-950 sm:text-4xl">
-                  {searchedQuery ? 'Resultados de búsqueda' : 'Cerca de la USIL'}
+                <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#15803d]">Opciones para ti</span>
+                <h2 className="mt-2 font-heading text-3xl font-bold tracking-tight text-[#0f3d2e] sm:text-4xl">
+                  Tus matches
                 </h2>
-                <p className="mt-2 max-w-2xl text-sm leading-6 text-emerald-950/80">
-                  {searchedQuery ? <>Coincidencias para <span className="font-semibold text-emerald-950">“{searchedQuery}”</span></> : 'Comercios de la zona con alternativas para distintos antojos y presupuestos.'}
+                <p className="mt-2 max-w-2xl text-sm leading-6 text-[#0f3d2e]/80">
+                  {searchedQuery ? <>Coincidencias para <span className="font-semibold text-[#0f3d2e]">“{searchedQuery}”</span></> : 'Comercios de la zona con alternativas para distintos antojos y presupuestos.'}
                 </p>
               </div>
-              <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-900/10 bg-white px-3.5 py-2 text-xs font-medium text-emerald-950/75">
-                <Clock3 aria-hidden="true" className="size-4 text-emerald-700" />
+              <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-900/10 bg-white px-3.5 py-2 text-xs font-medium text-[#0f3d2e]/75">
+                <Clock3 aria-hidden="true" className="size-4 text-[#15803d]" />
                 Distancias aproximadas desde el campus
               </span>
             </div>
 
             {isLoading ? (
               <div className="flex min-h-64 flex-col items-center justify-center gap-4 rounded-3xl border border-emerald-900/10 bg-white text-center">
-                <Loader2 aria-hidden="true" className="size-8 animate-spin text-emerald-700" />
-                <p role="status" className="font-medium text-emerald-950">Realizando búsqueda en la base de datos</p>
+                <Loader2 aria-hidden="true" className="size-8 animate-spin text-[#15803d]" />
+                <p role="status" className="font-medium text-[#0f3d2e]">Realizando búsqueda en la base de datos</p>
               </div>
             ) : (
               <MerchantCards merchants={results} />
             )}
-            <p className="mt-5 flex items-start gap-2 text-xs leading-5 text-emerald-950/80">
-              <ShieldCheck aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-emerald-700" />
+            <p className="mt-5 flex items-start gap-2 text-xs leading-5 text-[#0f3d2e]/80">
+              <ShieldCheck aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#15803d]" />
               NutriCampus informa y recomienda. Los precios, platos y distancias son referenciales; confirma los detalles directamente con cada comercio.
             </p>
           </div>
         </section>
 
-        <section id="planes" className="scroll-mt-24 bg-gradient-to-b from-emerald-50 to-lime-100/70 px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+        <section id="planes" className="scroll-mt-24 bg-gradient-to-b from-[#a3e635]/50 via-[#fffbeb] to-[#4ade80]/35 px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="mx-auto mb-10 max-w-2xl text-center">
-              <span className="text-xs font-bold uppercase tracking-[0.16em] text-emerald-700">Para comercios</span>
-              <h2 className="mt-2 font-heading text-3xl font-bold tracking-tight text-emerald-950 sm:text-4xl">Haz que te encuentren</h2>
-              <p className="mt-3 text-sm leading-6 text-emerald-950/80 sm:text-base">
-                Comparte tu menú con estudiantes que buscan opciones ricas, nutritivas y cerca de la USIL.
+              <span className="text-xs font-extrabold uppercase tracking-[0.16em] text-[#15803d]">Para comercios</span>
+              <h2 className="mt-2 font-heading text-3xl font-extrabold tracking-tight text-[#0f3d2e] sm:text-4xl">Haz que te encuentren</h2>
+              <p className="mt-3 text-sm font-medium leading-6 text-[#0f3d2e]/85 sm:text-base">
+                Llega a los estudiantes de la USIL que buscan comer saludable cerca del campus.
               </p>
             </div>
             <Plans />
-            <p className="mt-6 text-center text-xs font-medium text-emerald-950/80">Pago con Yape, Plin o tarjeta · Planes y precios referenciales para esta demostración</p>
+            <p className="mt-7 text-center text-sm font-bold leading-6 text-[#0f3d2e]">Primer mes gratis en los planes Destacado y Premium. Sin contrato, cancela cuando quieras.</p>
+            <p className="mt-2 text-center text-xs font-medium text-[#0f3d2e]/75">Pago con Yape, Plin o tarjeta · Precios referenciales para esta demostración</p>
           </div>
         </section>
 
-        <section className="bg-[#fefce8] px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
+        <section className="bg-[#fffbeb] px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
           <div className="mx-auto grid max-w-7xl items-center gap-8 rounded-[2rem] bg-emerald-950 px-6 py-8 text-lime-50 shadow-[0_24px_70px_-35px_rgba(20,83,45,0.5)] sm:px-10 sm:py-10 md:grid-cols-[1fr_auto]">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-semibold text-lime-100">
@@ -148,7 +149,7 @@ export function NutriCampusLanding() {
               <h2 className="mt-4 max-w-2xl font-heading text-2xl font-bold tracking-tight text-white sm:text-3xl">Pequeñas decisiones que suman a tu bienestar.</h2>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-lime-50/75">Encontrar opciones más saludables cerca de la universidad puede hacer más fácil cuidarte, incluso en los días más ocupados.</p>
             </div>
-            <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-lime-100 px-5 text-sm font-bold text-emerald-950 transition hover:bg-lime-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lime-200/40">
+            <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-lime-100 px-5 text-sm font-bold text-[#0f3d2e] transition hover:bg-lime-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lime-200/40">
               Explorar opciones
               <Search aria-hidden="true" className="size-4" />
             </a>

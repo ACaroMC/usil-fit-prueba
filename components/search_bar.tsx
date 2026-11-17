@@ -61,7 +61,7 @@ function CampusSearchBar({ query, onQueryChange, onSearch }: CampusSearchProps) 
             className="min-w-0 flex-1 bg-transparent py-3 text-sm text-emerald-950 outline-none placeholder:text-emerald-900/75 sm:text-base"
           />
         </div>
-        <button type="submit" className="inline-flex min-h-14 shrink-0 items-center justify-center gap-2 rounded-2xl bg-orange-500 px-7 font-semibold text-orange-950 shadow-sm transition hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-500/30">
+        <button type="submit" className="inline-flex min-h-14 shrink-0 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#ff6a00] to-[#ff3d81] px-7 font-extrabold text-[#0f3d2e] shadow-md shadow-[#9d174d]/20 transition hover:scale-[1.02] hover:shadow-lg focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#9d174d]/30">
           Buscar
           <ArrowRight aria-hidden="true" className="size-4" />
         </button>
@@ -74,7 +74,7 @@ function CampusSearchBar({ query, onQueryChange, onSearch }: CampusSearchProps) 
         </div>
         <div className="flex flex-wrap gap-2">
           {quickSearches.map((example) => (
-            <button key={example} type="button" onClick={() => runExample(example)} className="rounded-full border border-emerald-900/15 bg-lime-50 px-3.5 py-2 text-left text-xs font-medium leading-snug text-emerald-950 transition hover:border-emerald-600/50 hover:bg-emerald-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 sm:text-sm">
+            <button key={example} type="button" onClick={() => runExample(example)} className="rounded-full border border-[#0f3d2e]/15 bg-[#ffd60a]/45 px-3.5 py-2 text-left text-xs font-semibold leading-snug text-[#0f3d2e] transition hover:border-[#15803d]/50 hover:bg-[#a3e635]/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#15803d] sm:text-sm">
               {example}
             </button>
           ))}
