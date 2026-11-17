@@ -42,32 +42,32 @@ export function NutriCampusLanding() {
     <>
       <SiteHeader />
       <main>
-        <section id="inicio" className="relative scroll-mt-24 overflow-hidden bg-gradient-to-br from-[#a3e635] via-[#4ade80] to-[#34d399]">
-          <div aria-hidden="true" className="pointer-events-none absolute -right-28 -top-28 size-80 rounded-full bg-[#ffd60a]/45 blur-3xl" />
-          <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-56 size-80 rounded-full bg-[#ff3d81]/15 blur-3xl" />
+        <section id="inicio" className="relative scroll-mt-24 overflow-hidden bg-gradient-to-br from-[#FFFBEB] via-[#ECFCCB] to-[#BBF7D0]">
+          <div aria-hidden="true" className="pointer-events-none absolute -right-28 -top-28 size-80 rounded-full bg-transparent" />
+          <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-56 size-80 rounded-full bg-transparent" />
           <div className="relative mx-auto max-w-7xl px-4 pb-14 pt-12 sm:px-6 sm:pt-16 lg:px-8 lg:pt-20">
             <div className="mx-auto max-w-4xl text-center">
-              <span className="inline-flex items-center gap-2 rounded-full border border-[#0f3d2e]/15 bg-[#fffbeb]/90 px-4 py-2 text-xs font-bold text-[#0f3d2e] shadow-sm sm:text-sm">
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#86EFAC] bg-white px-4 py-2 text-xs font-bold text-[#0F3D2E] shadow-sm sm:text-sm">
                 <MapPin aria-hidden="true" className="size-4 text-[#15803d]" />
                 USIL · Av. La Fontana 550, La Molina
               </span>
               <h1 className="mx-auto mt-6 max-w-4xl text-balance font-heading text-4xl font-extrabold leading-[1.08] tracking-tight text-[#0f3d2e] sm:text-5xl lg:text-6xl">
-                Haz match con tu <span className="text-[#9d174d]">almuerzo saludable</span>
+                Haz match con tu <span className="text-[#C2410C]">almuerzo saludable</span>
               </h1>
-              <p className="mx-auto mt-5 max-w-2xl text-pretty text-base font-medium leading-7 text-[#0f3d2e]/90 sm:text-lg sm:leading-8">
+              <p className="mx-auto mt-5 max-w-2xl text-pretty text-base font-medium leading-7 text-[#14532D] sm:text-lg sm:leading-8">
                 NutriCampus te muestra los comercios cerca de la USIL que se ajustan a tu presupuesto y a lo que quieres comer.
               </p>
               <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
-                <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#ff6a00] to-[#ff3d81] px-6 text-sm font-extrabold text-[#0f3d2e] shadow-lg shadow-[#9d174d]/20 transition hover:-translate-y-0.5 hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#9d174d]/30">
+                <a href="#buscar" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-[#C2410C] px-6 text-sm font-extrabold text-white shadow-md shadow-black/10 transition hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-[#9A3412] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#0F3D2E]/30">
                   Encuentra tu próximo almuerzo
                   <ArrowRight aria-hidden="true" className="size-4" />
                 </a>
-                <span className="inline-flex items-center gap-2 rounded-full bg-[#fffbeb]/70 px-4 py-2 text-xs font-bold text-[#0f3d2e] sm:text-sm">
+                <span className="inline-flex items-center gap-2 rounded-full bg-[#DCFCE7] px-4 py-2 text-xs font-bold text-[#14532D] sm:text-sm">
                   <ShieldCheck aria-hidden="true" className="size-4 text-[#15803d]" />
                   Recomendaciones, no ventas
                 </span>
               </div>
-              <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-bold text-[#0f3d2e] sm:text-sm">
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-bold text-[#15803D] sm:text-sm">
                 <span className="inline-flex items-center gap-2"><Sparkles aria-hidden="true" className="size-4 text-[#15803d]" />Búsqueda inteligente</span>
                 <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="size-4 text-[#15803d]" />Cerca de tu campus</span>
                 <span className="inline-flex items-center gap-2"><HeartPulse aria-hidden="true" className="size-4 text-[#15803d]" />Opciones para sentirte bien</span>

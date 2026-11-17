@@ -97,7 +97,7 @@ export function FoodCarousel() {
                     className="object-cover transition duration-500 group-hover:scale-105"
                     priority={index === 0}
                   />
-                  <span className="absolute left-3 top-3 rounded-full bg-[#ffd60a] px-3 py-1 text-[11px] font-extrabold text-[#0f3d2e] shadow-sm">Idea saludable</span>
+                  <span className="absolute left-3 top-3 rounded-full bg-[#FDE68A] px-3 py-1 text-[11px] font-extrabold text-[#0F3D2E] shadow-sm">Idea saludable</span>
                 </div>
                 <div className="flex h-28 flex-col justify-between gap-2 p-4">
                   <h3 className="font-heading text-base font-bold leading-tight text-[#0f3d2e]">{slide.title}</h3>
