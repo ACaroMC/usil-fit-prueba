@@ -58,56 +58,66 @@
 :root {
   color-scheme: light;
 
-  /* USIL Fit palette */
-  --brand: #4caf78;
-  --brand-dark: #287a55;
-  --brand-light: #ddf3e6;
-  --sky: #c0e8f9;
-  --teal-muted: #bad9db;
+  --brand: #16a34a;
+  --brand-dark: #14532d;
+  --brand-light: #ecfccb;
+  --sky: #bbf7d0;
+  --teal-muted: #a7f3d0;
 
-  --background: #f2faf5;
-  --foreground: #374151;
+  --background: #fefce8;
+  --foreground: #14532d;
 
   --card: #ffffff;
-  --card-foreground: #374151;
+  --card-foreground: #14532d;
 
   --popover: #ffffff;
-  --popover-foreground: #374151;
+  --popover-foreground: #14532d;
 
-  --primary: #4caf78;
-  --primary-foreground: #ffffff;
+  --primary: #14532d;
+  --primary-foreground: #fefce8;
 
-  --secondary: #ddf3e6;
-  --secondary-foreground: #287a55;
+  --secondary: #ecfccb;
+  --secondary-foreground: #14532d;
 
-  --muted: #ddf3e6;
-  --muted-foreground: #6b7c74;
+  --muted: #f0fdf4;
+  --muted-foreground: #365e46;
 
-  --accent: #c0e8f9;
-  --accent-foreground: #1f5468;
+  --accent: #f97316;
+  --accent-foreground: #431407;
 
-  --destructive: #dc6a5a;
+  --destructive: #b91c1c;
 
-  --border: #d5ecdd;
-  --input: #d5ecdd;
-  --ring: #4caf78;
+  --border: #d9e6d4;
+  --input: #d9e6d4;
+  --ring: #16a34a;
 
-  --chart-1: #4caf78;
-  --chart-2: #287a55;
-  --chart-3: #c0e8f9;
-  --chart-4: #bad9db;
-  --chart-5: #90cdb0;
+  --chart-1: #16a34a;
+  --chart-2: #14532d;
+  --chart-3: #f97316;
+  --chart-4: #bbf7d0;
+  --chart-5: #84cc16;
 
   --radius: 0.9rem;
 
   --sidebar: #ffffff;
-  --sidebar-foreground: #374151;
-  --sidebar-primary: #4caf78;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #ddf3e6;
-  --sidebar-accent-foreground: #287a55;
-  --sidebar-border: #d5ecdd;
-  --sidebar-ring: #4caf78;
+  --sidebar-foreground: #14532d;
+  --sidebar-primary: #14532d;
+  --sidebar-primary-foreground: #fefce8;
+  --sidebar-accent: #ecfccb;
+  --sidebar-accent-foreground: #14532d;
+  --sidebar-border: #d9e6d4;
+  --sidebar-ring: #16a34a;
+}
+
+@keyframes carousel-in {
+  from {
+    opacity: 0.55;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer base {
